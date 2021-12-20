@@ -1,0 +1,71 @@
+.modalBackground {
+  background-color: #222222;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  margin: 0;
+  overflow: auto;
+  padding: 0;
+  width: 100vw;
+  z-index: 1;
+}
+
+.modalBody {
+  max-width: 1200px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  .Logo {
+    width: 60%;
+    height: 60%;
+  }
+}
+
+button.modalBtn {
+  background-color: #222222;
+  border: none;
+  color: #debf79;
+  font-family: "Poppin", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0 1rem 0 0;
+}
+
+@media screen and (min-width: 90em) {
+  .modalBackground {
+    background: #222222;
+    background: -moz-linear-gradient(
+      90deg,
+      rgba(34, 34, 34, 1) 50%,
+      rgba(255, 255, 255, 1) 50%
+    );
+    background: -webkit-linear-gradient(
+      90deg,
+      rgba(34, 34, 34, 1) 50%,
+      rgba(255, 255, 255, 1) 50%
+    );
+    background: linear-gradient(
+      90deg,
+      rgba(34, 34, 34, 1) 50%,
+      rgba(255, 255, 255, 1) 50%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#222222",endColorstr="#ffffff",GradientType=1);
+  }
+
+  .modalBody {
+    margin: auto;
+    max-width: 1200px;
+    padding: 2rem 0 0 0;
+  }
+
+  button.modalBtn {
+    background-color: white;
+  }
+}

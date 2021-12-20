@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 1rem;
+  max-width: 100%;
+}
+
+.navbar {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 50%;
+  padding: 1rem;
+  margin: auto 0;
+  .navList {
+    list-style-type: none;
+    .navList__item {
+      color: #debf79;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+  }
+}

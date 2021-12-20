@@ -1,0 +1,50 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "page_id": 1,
+      "title": "10/4",
+      "content": "Integer accumsan molestie nisl, id faucibus urna accumsan quis. Proin vulputate, mauris semper maximus.",
+      "created_at": "2021-07-19T20:37:01.000000Z",
+      "updated_at": "2021-07-19T20:37:01.000000Z",
+      "page": {
+        "id": 1,
+        "label": "home",
+        "name": "Home",
+        "created_at": "2021-07-19T20:35:14.000000Z",
+        "updated_at": "2021-07-19T20:35:14.000000Z"
+      }
+    },
+    {
+      "id": 2,
+      "page_id": 1,
+      "title": "Sweet Tators",
+      "content": "Morbi eget magna nunc. Aenean tristique justo enim bibendum egestas. Integer accumsan imperdiet purus.",
+      "created_at": "2021-07-19T20:39:52.000000Z",
+      "updated_at": "2021-07-19T20:39:52.000000Z",
+      "page": {
+        "id": 1,
+        "label": "home",
+        "name": "Home",
+        "created_at": "2021-07-19T20:35:14.000000Z",
+        "updated_at": "2021-07-19T20:35:14.000000Z"
+      }
+    },
+    {
+      "id": 3,
+      "page_id": 1,
+      "title": "Dagnabbit",
+      "content": "Aliquam erat volutpat. Aenean ultrices in odio id tempor. Phasellus placerat eros ac vestibulum.",
+      "created_at": "2021-07-19T20:41:52.000000Z",
+      "updated_at": "2021-07-19T20:41:52.000000Z",
+      "page": {
+        "id": 1,
+        "label": "home",
+        "name": "Home",
+        "created_at": "2021-07-19T20:35:14.000000Z",
+        "updated_at": "2021-07-19T20:35:14.000000Z"
+      }
+    }
+  ]
+}

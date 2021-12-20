@@ -1,0 +1,16 @@
+.Container {
+  display: block;
+  width: 100%;
+}
+.Pane {
+  width: 100%;
+}
+
+@media screen and (min-width: 48em) {
+  .Container {
+    display: flex;
+  }
+  .Pane {
+    flex: 1;
+  }
+}
